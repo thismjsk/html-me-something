@@ -1,11 +1,15 @@
 body {
-  
+    padding-top: 50px;
+    margin-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
     background-color: lightyellow;
     background-image: url("images/pepps.png");
     background-repeat: repeat-x;
     
-    margin-top:120px;
-    margin-bottom: 120px;
+    padding-bottom: 50px;
+    margin-bottom: 70px;
     
     
 }
@@ -46,6 +50,13 @@ h4 {
     font-size: 25px;
 }
 
+div#intro {
+    
+    text-align: center;
+    color: olive;
+    
+}
+
 
 div > article{
     
@@ -56,9 +67,21 @@ div > article{
 
 .pizza-pics {
     
-    width: 400px; 
-    height:400px;
+    width: 50%; 
+    height:50%;
     border: 8px solid black;
+    display: block;
+    margin: auto;
+    opacity: 0.5;
     
+       
+}
+
+.pizza-pics:hover {
+    
+    
+    width:75%;
+    height: 75%;
+    opacity: 1;
     
 }
